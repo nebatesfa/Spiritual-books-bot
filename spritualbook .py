@@ -10,7 +10,8 @@ from telegram.ext import (
     ContextTypes
 )
 
-TOKEN = "8243278603:AAGw58vbb3LyPrFVvQ5hyeJtC2WrF0knw3k"
+import os
+TOKEN = os.environ["TOKEN"]
 REQUIRED_CHANNEL = "spritualbooks2"  # Corrected the typo
 REQUIRED_GROUP = "spiritualbooks3"      # without @
 
